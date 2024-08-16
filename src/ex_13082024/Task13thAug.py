@@ -30,3 +30,5 @@ print("Sum of two numbers is:",f"{(num1+num2)}")
 print("Subtraction of two numbers is:",f"{(num1-num2)}")
 print("Multiplication of two numbers is:",f"{(num1*num2)}")
 print("Division of two numbers is:",f"{(num1/num2):.4f}")
+print("Power of two numbers is:", pow(num1,num2))
+

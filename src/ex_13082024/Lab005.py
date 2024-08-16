@@ -1,47 +1,41 @@
-import none
-
-# String
-name = "Viveka"
+# take input from user and print Hi, your name
+name = input("Enter your name")
+print("Hi,",name)
 print(type(name))
-print(name.upper())
-print(name.lower())
-print(len(name))
 
-# difference between string & int
-age = "90" #String
-Age = 90 # Int
-print(type(age))
-print(type(Age))
+# for example, enter the value in alphabets and check the data type
+# for example, enter the value in numbers and check the data type, though the value you provide in numbers the data type displays as string because the data type of input function is always string
 
-# concatenation
-first_name = "Viveka"
-last_name = "Varthini"
-print(first_name + last_name)
-#full_name = first_name + last_name
-#print(full_name)
+#take a user input num1 & num2 and calculate sum, sub, mult, div
+""""
+num1 = input("Enter the num1")
+num2 = input("Enter the num2")
+print("sum is:", num1+num2) # since the data type of function 'input' is string, the values that we input will get concatenated as 8989, instead of 89+89 = 178
+print("sub is:", num1-num2) # hence remaining code gives error due to the data type string
+print("mul is:", num1*num2)
+print("div is:", num1/num2)
+"""
 
-Name = "Vivekavarthini"
-Name = "Vivekavarthini"+"1" # or "Vivekavarthini"+ str(1)
-print(Name)
+num1 = int(input("Enter the num1")) # thus we have to first convert the user input to int
+num2 = int(input("Enter the num2"))
+print("sum is:", num1+num2)
+print("sub is:", num1-num2)
+print("mul is:", num1*num2)
+print("div is:", num1/num2) # whereas JAVA eliminates the decimal values and displays integer while division,
+# Python is a ver smart lang as it displays the result of division in float since there is a high chances for decimal value
 
-# List
-my_shopping_list = ["milk", "bread", "jam"]
-my_mark_list = [90, 95, 70, 81]
-print(my_shopping_list)
-print(type(my_shopping_list))
-print(my_mark_list)
-print(type(my_mark_list))
+# if we want to see two or more digits after decimal then we have to use String formating
 
-# ID identifier
-age = 90
-print(id(age))
+number = 3.14159265359
+formated_number = f"{number:.4f}"
+print(formated_number)
 
-# None type
-how_many_planes_you_have = None
-print(type(how_many_planes_you_have))
+# write a table
 
-# Boolean
-are_you_married = False
-is_female = True
-are_you_in_India = True
+table = 9
+print(f"{table}*1={table}")
+print(f"{table}*2={table*2}")
+print(f"{table}*3={table*3}")
+print(f"{table}*4={table*4}")
+# value inside {} is value and value outside {} is string
 
