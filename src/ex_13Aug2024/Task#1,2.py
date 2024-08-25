@@ -17,7 +17,7 @@ print(f"{table}*8={table*8}")
 print(f"{table}*9={table*9}")
 print(f"{table}*10={table*10}")
 
-# Task 2 - To create a program, take 2 inputs as num1 & num2 and give them
+# Task 2 - To create a program, take 2 user inputs as num1 & num2 and give them
 # 1. Max, min, sum, sub, mul, div
 # 2. pow num1 to num2
 # 3. format out with f"{}"
@@ -31,4 +31,6 @@ print("Subtraction of two numbers is:",f"{(num1-num2)}")
 print("Multiplication of two numbers is:",f"{(num1*num2)}")
 print("Division of two numbers is:",f"{(num1/num2):.4f}")
 print("Power of two numbers is:", pow(num1,num2))
+
+
 

@@ -4,7 +4,7 @@ b=50
 print(max(a,b))
 print(min(a,b))
 # max(20,50)
-# min(20,50
+# min(20,50)
 
 #pow()
 c=pow(2,3)
@@ -17,7 +17,10 @@ print(abs(d))
 #abs()
 e= abs(-2)
 print(e)
-# abstract is used to find the positive value
+
+f=abs(2)
+print(f)
+# absolute is used to find the non-negative value
 
 
 

@@ -41,7 +41,7 @@ how_many_planes_you_have = None
 print(type(how_many_planes_you_have))
 
 # Boolean
-are_you_married = False
+is_married = False
 is_female = True
-are_you_in_India = True
+is_in_India = True
 

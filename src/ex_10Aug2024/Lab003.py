@@ -1,6 +1,6 @@
 # Topic - Keywords, Identifiers & Data type
 
-# Keywords & Identifiers - called as reserved words
+# Keywords - called as reserved words
 # can be in lower case or upper case
 # cannot be used as variable name or function name
 # Keywords are case-sensitive
@@ -57,5 +57,5 @@ print(type(age))
 
 # 4. Advanced data type
 # a. set, dictionary, tuple, binary, frozen set
-
+# b. my_tuple = ("bread", "apple", "milk")
 
