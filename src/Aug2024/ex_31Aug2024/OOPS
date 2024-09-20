@@ -1,0 +1,40 @@
+OOPs:
+
+Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.
+It simplifies the software development and maintenance by providing some concepts
+Object-Oriented Programming (OOP)
+•	Something Related to Object -> Classes
+•	OOps divide the program into classes and objects
+•	emphasis data.
+•	Python, Java
+•	Productivity is high
+Procedural Programming Language
+1.	Everything that you create a program, you can divide them into the functions.
+2.	def sum(), sum(3,4).
+3.	data members - data variables and functions - methods -> PPL - most of things are focused on the functions only.
+4.	It is not that close to the real world.
+5.	emphasis is on the doing things.
+6.	C, Basic
+7.	Productivity is low
+
+Class - Blueprint
+•	Class is a user-defined data type
+•	A class can have some properties and functions (called methods).
+•	Attributes | properties |data variables | Data members -> all are same
+•	Behaviour | Methods | functions | Member functions -> all are same
+Object
+•	Object is an instance of a class.
+•	All data members and member functions (which is behaviours) of the class can be accessed with the help of objects.
+•	Object is a run-time/Real world entity entity. An object can represent a person, place or any other item.
+
+
+Eg:
+# PyATB Students
+Attributes / Properties / Data members
+Behaviour / Methods / members functions
+# Attributes -
+name, id, phoneNo, gender, color_eyes, city, location, address.
+Attributes are, by Which you recognize.
+# Behaviour -
+walk, talk, write, sing, dance, watch, listen, sleep, cry, simile
+Behaviours are an action that it does.
