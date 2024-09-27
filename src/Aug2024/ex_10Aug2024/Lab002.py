@@ -7,7 +7,7 @@ print("Hello", "World", 123, 3.14, True, sep="-") # sep acts as a separator betw
 print("Hello", "World", 123, 3.14, True, sep="|", end="_") # end specifies what should be printed at the end of the output instead of the default newline character (\n). end="_" ensures that _ is printed instead of a newline after the first print() statement, so the next print() statement continues on the same line.
 print("viveka") # sep=" ", end=" " are called parameters that controls how output is formatted.
 
-# Python follows indentation, there should not be space left at the beginning of each source code
+# Python follows indentation, to define the structure and scope of code blocks
 """
    print("Hello") #identation error, select the files and reformat the code
 """

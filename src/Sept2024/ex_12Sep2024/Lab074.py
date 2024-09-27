@@ -6,7 +6,7 @@ Package -
 
 # how to import and access files from another package
 
-# from package_name.file_name import function_name()
+# from package_name.file_name import function_name
 from OpenBrowser.Start import start_a_browser
 from OpenBrowser.Stop import stop_a_browser
 

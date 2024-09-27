@@ -23,7 +23,7 @@ print("Hello\tWorld") # \t tab
 print("Hello\bWorld") # \b backspace
 
 # r -> raw string
-# directory_name = 'c:\pramod\n.txt' # \n will convert the statement to newline
+# directory_name = 'c:\pramod\n.txt' # \n will convert the path to newline
 # directory_name = "c:\pramod\n.txt" # \n will convert the statement to newline
 directory_name = r"c:\pramod\n.txt"# r -> raw string will stop the conversion from newline or tab (escape sequence)
 directory_name2 = r'c:\pramod\n.txt'

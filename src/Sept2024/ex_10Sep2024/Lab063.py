@@ -1,10 +1,10 @@
 # os - Operating system
-# os name -> posix - windows or linux, nt - windows
+# os name -> posix - mac or linux, nt - windows
 import os
 
 print(os.name)
 if os.name == 'posix':
-    print("max or linux")
+    print("mac or linux")
 
 else:
     print("windows")

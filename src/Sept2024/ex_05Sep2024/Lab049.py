@@ -2,7 +2,7 @@
 # it is a mixture of Multiple and hierarchical inheritance
 
 # multiple types of inheritance,
-# such as single, multiple, and multilevel inheritance.
+# such as single, multiple, and hierarchical inheritance.
 
 # Img representation of inheritance
 # https://eraser.imgix.net/workspaces/V1rGGsUC3exwXT9FRzVL/WWS31TdyovhjTB1TVo9v2jWpPei1/Fu_txXzEfn1sqW9Kt3ENl.png?ixlib=js-3.7.0
@@ -21,7 +21,7 @@ class C(A): # Son2
         return "Method C"
 
 
-class D(B, C): #Sister  # Multiple, Multilevel - MRO(Method Resolution Order - First
+class D(B, C): #Sister  # Multiple, Multilevel - MRO(Method Resolution Order - First)
     def methodD(self):
         return "Method D"
 

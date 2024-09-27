@@ -7,8 +7,8 @@ class MathUtils(object):  # is- A object - single inheritance
     def add(self, a, b):
         return a + b
 
-    def add(self, a, b, c=10, d=1):
-        return a + b + c + d
+    def add(self, a, b, c=10):
+        return a + b + c 
 
     def add(self, a, b, c):
         return a + b + c

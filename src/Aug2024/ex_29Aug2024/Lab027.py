@@ -16,8 +16,8 @@ my_tuple_list = ("testacademy.com", "sdet.club")
 my_conversion_to_list = list(my_tuple_list) #conversion
 print(my_conversion_to_list)
 # again we can convert it to tuple by using 'tuple'
-my_conversion_to_list = tuple(my_tuple_list)
-print(my_conversion_to_list)
+my_conversion_to_tuple = tuple(my_conversion_to_list)
+print(my_conversion_to_tuple)
 
 # simplified example
 t1 = list(("viveka", 5016)) # conversion of tuple to list

@@ -2,6 +2,7 @@
 # 1. Collection of Unique elements
 # 2. Set automatically removes duplicate elements
 # 3. {} -> uses curly braces
+# 4. The order of elements in the output may not match the order in the original list, as sets are unordered collections.
 
 #
 list_of_unique_elements = {1, 2, 3, 4, 4, 5, 5, 6} # provides unique output

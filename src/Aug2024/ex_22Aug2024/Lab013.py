@@ -16,9 +16,11 @@ for i in range(1,10): # by default the step value is 1
     print(i)
 
 # it generates a sequence of numbers starting from the start value, ending before the stop value, and incrementing by the step value each time.
+# print odd numbers
 for j in range(1,10,2): # generates output, incrementing by the step value each time
     print(j)
 
+# print even numbers
 for k in range(2,20,2):
     print(k,end=",") # if u want to print the output in the same line using comma
 

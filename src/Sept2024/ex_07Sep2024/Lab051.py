@@ -36,6 +36,5 @@ class Circle(Shape): # Hierarchical Inheritance
 shape1 = Rectangle(3,4)
 print(shape1.area())
 
-
 shape2 = Circle(10)
 print(shape2.area())

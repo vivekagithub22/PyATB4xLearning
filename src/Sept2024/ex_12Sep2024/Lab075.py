@@ -21,6 +21,10 @@ Eg of libraries:
 # csv , os - modules
 # pytest, json, allure report, xml, playwright, openpyxml, openpycsv,
 
+# Automation Project - we use the below
+# selenium, request, csv, os, pytest, json, playwright
+# pip install
+
 ## pip
 # pip install library
 # pip is a package manager - where you can import the other packages into your own projects.
@@ -43,10 +47,4 @@ Eg of libraries:
     - To freeze the requirement - `pip freeze > requirements.txt` # saves all the package into a text file
     - to use the or install the all packages in one way into another a new project - Copy & Paste the requirement file & command -> pip install -r `requirements.txt` 
 """
-# Automation Project
-# selenium, request, csv, os, pytest, json, playwright
-# pip install
 
-import csv
-
-# builtins

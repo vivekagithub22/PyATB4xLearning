@@ -10,7 +10,7 @@ class MyClass:
     __password = "1234"
 
     # Protected variable
-    _protected_var = "I am protected." # starts with single _ , can be accessed outside the class, within subclass & within same directory/package
+    _protected_var = "I am protected." # starts with single _ , can be accessed within / outside the class, within subclass & within same directory/package
 
     pramod =  "TTA"
     __pramod_bank =  100000000000

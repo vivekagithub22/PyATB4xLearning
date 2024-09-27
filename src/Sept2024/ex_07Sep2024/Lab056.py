@@ -11,7 +11,7 @@ class MYSQLDBConnection:
         print("Reading from MySQL")
 
 
-class TC1: # no need to inherit since it's static methods
+class TC1: # no need to inherit since static methods can be called inside and outside any class
     def runTC(self):
         ExcelReader.readExcelFile() # ClassName.method_name,  not inherited so no need to use super()
         MYSQLDBConnection.readMySQLFile() # ClassName.method_name,  not inherited so no need to use super()

@@ -15,3 +15,9 @@ def bring_more_food(my_list):
     return my_list
 l = bring_more_food(my_shopping_list)
 print(l)
+
+list1 = ["milk", 123, 3.15, True]
+print(list1)
+list1.append("qwe")
+list1.append(12)
+print(list1)

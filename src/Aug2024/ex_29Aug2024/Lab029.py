@@ -1,7 +1,7 @@
 """ Dictionary """
-# 1. Dictionary contains Key and value
-# 2. name -> "Pramod"
-# 3. Dictionary is also an unordered collection of data
+# 1. Dictionary contains Key and value inside curly braces
+# 2. "name" : "Pramod"
+# 3. Dictionary is also an unordered collection of data, indexation do not work in dictionary
 
 # can have multiple key and values
 student_info = {
@@ -16,7 +16,8 @@ print(student_info["name"])
 print(student_info["Age"])
 print(student_info["Address"])
 
-student_info["Age"] = 100
+# replace
+student_info["Age"] = 100 # we cannot use index values, because dictionary is an unordered collection of data
 print(student_info)
 
 # another way to create dictionary list
